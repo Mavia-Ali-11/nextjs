@@ -105,3 +105,42 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.main, .inner_menu {
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.menu, .inner_menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li img {
+    padding: 0 20px;
+    border-right: 1px solid #444;
+}
+
+.menu li {
+    margin: 20px 10px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects > div {
+  width: 15%;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  height: fit-content;
+  border: 1px solid #444;
+}
+
+.projects > div h4 {
+  margin-bottom: 20px;
+}
